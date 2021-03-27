@@ -42,3 +42,10 @@ ul {
     margin: 1em;
     text-align: center;
 }
+
+@media (max-width: 650px)
+{
+  .carteira {
+    width: 27em !important;
+  }
+}
