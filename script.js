@@ -33,5 +33,5 @@ async function generateData() {
   data = JSON.stringify(cardsobj)
   dataencoded = btoa(data);
 
-  document.location += '/print.html?data=' + dataencoded
+  document.location = 'https://jonathasgouv.github.io/moldecartoes/print.html?data' + dataencoded
 }
