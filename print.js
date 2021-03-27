@@ -10,6 +10,14 @@ function formatDate (input) {
   }
 }
 
+var isMobile = (/Android|iPhone|iPad|iPod|BlackBerry|IEMobile|Windows Phone/i.test(navigator.userAgent)) ? true : false;
+
+function mobile() {
+  if (isMobile) {
+    document.body.classList.add("mobile");
+  }
+}
+
 
 function loadData() {
   data = document.location.href.split('?data=')[1]
@@ -29,5 +37,5 @@ function loadData() {
 
 
 
-
+mobile();
 loadData();
