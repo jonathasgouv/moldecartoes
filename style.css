@@ -1,38 +1,54 @@
 body {
-	height: 297mm;
-	width: 210mm;
-	font-family: Arial Black, Arial Bold, Gadget, sans-serif;
-	font-size: 8pt;
-	background-size: contain;
-	background-repeat: no-repeat;
-	margin-top: -4.8em;
+	background-color: #1d1d1d;
 }
 
-.name {
+p.numerador {
+	color: white;
+	text-transform: uppercase;
+	font-weight: 900;
+	font-size: x-large;
+}
+
+.carteira {
+	padding: 2em;
+	height: 18em;
+	width: 35em;
+	margin: 2em;
+	background: #424242;
+	border-radius: 2em;
+	box-shadow: 10px 10px 10px #191918;
+}
+
+.data-social {
+	display: flex;
+}
+
+.data-input {
+	margin-right: 1em;
+}
+
+ul {
+	/* display: -webkit-inline-box; */
+	display: flex;
+	margin-bottom: 1rem;
+	flex-flow: wrap;
+	justify-content: center;
+	margin-left: -3rem;
+	list-style: none;
+	/* align-content: space-evenly; */
+}
+
+.button {
+	margin: 1em;
 	text-align: center;
-	margin-bottom: 5px;
 }
 
-.soci {
+.btns {
 	display: flex;
-	justify-content: space-evenly;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
 }
-
-.card {
-	width: 400px;
-	margin-left: -25px;
-	padding-top: 148px;
-}
-
-.cardslis {
-	display: flex;
-	margin-top: 9.5px;
-}
-
-.right {
-	padding-left: 10px;
-}
-
 
 @media (max-width: 650px)
 {
