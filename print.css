@@ -1,12 +1,12 @@
 @font-face {
-    font-family: "Arial";
+    font-family: "ArialBlack";
     src: url("https://jonathasgouv.github.io/moldecartoes/Arial%20Black.ttf") format("ttf");
 }
 
 body {
 	height: 297mm;
 	width: 210mm;
-	font-family: Arial;
+	font-family: ArialBlack;
 	font-size: 8pt;
 	background-size: contain;
 	background-repeat: no-repeat;
